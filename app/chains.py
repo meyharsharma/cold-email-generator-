@@ -12,7 +12,7 @@ class Chain:
         print('working')
         self.llm = ChatGroq(
             temperature = 0,
-            groq_api_key = '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',
+            groq_api_key = 'your_api_key',
             model_name = 'llama-3.3-70b-versatile' 
         )
     
